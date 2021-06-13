@@ -1,0 +1,1 @@
+SELECT avg(trip_distance), avg(fare_amount), avg(tip_amount), avg(total_amount) FROM yellow WHERE passenger_count >= 1 and passenger_count <= 1 and PULocationID >= 4 and PULocationID <= 79 and DOLocationID >= 33 and DOLocationID <= 50 ;

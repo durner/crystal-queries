@@ -1,0 +1,1 @@
+SELECT avg(l_extendedprice), avg(l_discount), avg(l_tax) FROM lineitem WHERE l_extendedprice >= 1.6E+4 and l_extendedprice <= 3.0E+4 and l_receiptdate >= '1994-05-21' and l_receiptdate <= '1997-01-07' and l_shipmode = 'SHIP' ;

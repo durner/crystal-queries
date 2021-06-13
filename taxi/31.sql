@@ -1,0 +1,1 @@
+SELECT avg(trip_distance), avg(fare_amount), avg(tip_amount), avg(total_amount) FROM yellow WHERE tpep_pickup_datetime >= '2016-08-31' and tpep_pickup_datetime <= '2017-02-06' and passenger_count >= 5 and passenger_count <= 9 ;

@@ -1,0 +1,1 @@
+SELECT avg(open), avg(close) , avg(low), avg(high) , avg(volume) FROM prices WHERE volume >= 721100 and volume <= 1675600 and date >= '2017-05-11' ;

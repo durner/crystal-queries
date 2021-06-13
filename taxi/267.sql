@@ -1,0 +1,1 @@
+SELECT avg(trip_distance), avg(fare_amount), avg(tip_amount), avg(total_amount) FROM yellow WHERE tpep_dropoff_datetime >= '2016-10-31' and tpep_dropoff_datetime <= '2017-02-24' and trip_distance >= -9.2E+16 and trip_distance <= 0.6 ;

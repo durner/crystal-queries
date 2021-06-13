@@ -1,0 +1,1 @@
+SELECT avg(open), avg(close) , avg(low), avg(high) , avg(volume) FROM prices WHERE high >= 5.7 and high <= 8.3 and volume >= -9223372036854775807 and volume <= 4100 ;

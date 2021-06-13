@@ -1,0 +1,1 @@
+SELECT avg(open), avg(close) , avg(low), avg(high) , avg(volume) FROM prices WHERE adj_close >= 1.8 and adj_close <= 4.5 and date >= '2009-08-31' and date <= '2012-02-03' ;
